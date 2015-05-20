@@ -8,11 +8,11 @@
 </head>
 <body>
 
-			<%= link_to "About", about_path %>
-			<%= link_to "Fit", fit_path %>
-			<%= link_to "Ideas", ideas_path %>
-
-<%= yield %>
+			<%= render 'layouts/header' %>
+			<div class="container">
+					<%= yield %>
+			</div>
 
 </body>
 </html>
+
