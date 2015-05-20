@@ -4,6 +4,15 @@ Rails.application.routes.draw do
   get "fit" => "pages#fit"
   get "ideas" => "pages#ideas"
 
+  get "about/overview" => "pages#overview"
+  get "about/southeastasia" => "pages#southeastasia"
+  get "about/trumaker" => "pages#trumaker"
+
+  get "fit/passion" => "pages#passion"
+  get "fit/experience" => "pages#experience"
+  get "fit/impact" => "pages#impact"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -10,4 +10,23 @@ class PagesController < ApplicationController
 
   def ideas
   end
+
+  def overview
+  end
+
+  def southeastasia
+  end
+
+  def trumaker
+  end
+
+  def passion
+  end
+
+  def experience
+  end
+
+  def impact
+  end
+  
 end
