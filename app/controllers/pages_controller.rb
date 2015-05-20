@@ -28,5 +28,14 @@ class PagesController < ApplicationController
 
   def impact
   end
+
+  def interaction
+  end
+
+  def discovery
+  end
+
+  def community
+  end
   
 end
