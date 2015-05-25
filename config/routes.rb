@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   get "ideas/discovery" => "pages#discovery"
   get "ideas/community" => "pages#community"
 
+  get "createanaccount" => "pages#createanaccount"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
