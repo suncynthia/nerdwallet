@@ -37,5 +37,8 @@ class PagesController < ApplicationController
 
   def community
   end
+
+  def createanaccount
+  end
   
 end
