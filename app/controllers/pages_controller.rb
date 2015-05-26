@@ -46,5 +46,9 @@ class PagesController < ApplicationController
 
   def financialplanner
   end 
+
+  def financialplannerresult
+  end
+  
   
 end
