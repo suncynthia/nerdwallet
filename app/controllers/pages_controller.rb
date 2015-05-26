@@ -40,5 +40,8 @@ class PagesController < ApplicationController
 
   def createanaccount
   end
+
+  def financialprofile
+  end
   
 end

@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get "ideas/community" => "pages#community"
 
   get "createanaccount" => "pages#createanaccount"
+  get "financialprofile" => "pages#financialprofile"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
