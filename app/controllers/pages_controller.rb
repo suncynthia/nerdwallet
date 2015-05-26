@@ -43,5 +43,8 @@ class PagesController < ApplicationController
 
   def financialprofile
   end
+
+  def financialplanner
+  end 
   
 end
