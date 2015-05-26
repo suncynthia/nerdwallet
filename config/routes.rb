@@ -20,7 +20,7 @@ Rails.application.routes.draw do
   get "financialprofile" => "pages#financialprofile"
   get "financialplanner" => "pages#financialplanner"
   get "financialplannerresult" => "pages#financialplannerresult"
-
+  get "financialplannerresult2" => "pages#financialplannerresult2"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
